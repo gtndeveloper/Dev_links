@@ -1,18 +1,23 @@
 export const links = [
     {
-        title: "Veja meu github",
-        href: "https://github.com/gtndeveloper",
+        title: "Veja este projeto no github",
+        href: "https://github.com/gtndeveloper/Dev_links",
     },
     {
         title: "Veja meu Linkedin",
-        href: "www.linkedin.com/in/murilomendes71",
+        href: "https://linkedin.com/in/murilomendes71",
     },
     {
-        title: "Acesse este projeto no github",
-        href: "https://github.com/gtndeveloper/Dev_links",
+        title: "Acesse minha comunidade no discord",
+        href: "https://discord.gg/QsUfHER2KC",
     },
     {
         title: "Veja o meu behance",
         href: "https://behance.net/gtndev",
     },
+    {
+        title: "Página Inicial",
+        href: "/",
+        special: true
+    }
 ]
