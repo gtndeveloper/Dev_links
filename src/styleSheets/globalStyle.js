@@ -11,6 +11,11 @@ export const GlobalStyle = createGlobalStyle`
         color: #fff;
     }
 
+    ::-webkit-scrollbar {
+        width: .5rem;
+        background: #121212;
+    }
+
     * {
         margin: 0;
         padding: 0;
