@@ -53,6 +53,7 @@ const Responsive = [
 
                 & header {
                     gap: 0;
+                    div h2 { font-size: 2rem; }
                     div h3 { line-height: 135%; }
                 }
 
@@ -63,8 +64,6 @@ const Responsive = [
     `
         @media (max-width: 360px) {
             gap: 2rem;
-
-            & > #content header div h2 { font-size: 2rem; }
         }
     `
 ];
