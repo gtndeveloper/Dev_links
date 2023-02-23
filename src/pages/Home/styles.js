@@ -74,7 +74,7 @@ const Responsive = [
             }
         }
     `
-]
+];
 
 export const Main = styled.main`
     position: relative;
