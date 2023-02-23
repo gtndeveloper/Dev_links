@@ -11,7 +11,6 @@ export const Main = styled.main`
     align-items: center;
     justify-content: center;
 
-    
     background: linear-gradient(235.77deg, rgba(0, 0, 0, 0.2) 54.79%, rgba(0, 130, 255, 0.1) 155%), rgba(0, 0, 0, 0.2);
 `;
 
@@ -68,16 +67,20 @@ export const Container = styled.div`
             height: 4.6rem;
 
             background: rgba(65, 65, 65, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(10px);
-
+            border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 0.3rem;
 
             font-family: 'Roboto';
             font-weight: 400;
             font-size: 1.3rem;
-
             color: #FFFFFF;
+
+            transition: all .3s linear;
+
+            &:hover {
+                background: rgba(65, 65, 65, 0.15);
+            }
         }
     }
 
