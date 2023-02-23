@@ -46,15 +46,17 @@ const Responsive = [
     `,
     `
         @media (max-width: 398px) {
-            gap: 1.8rem;
+            gap: 1.2rem;
 
             & > #content {
                 gap: 1rem;
 
                 & header {
                     gap: 0;
-                    div h2 { font-size: 2rem; }
-                    div h3 { line-height: 135%; }
+
+                    & > h3 { font-size: 1.7;}
+                    & div h2 { font-size: 2rem; }
+                    & div h3 { line-height: 135%; }
                 }
 
                 & > p { font-size: 1.2rem; }
@@ -63,7 +65,7 @@ const Responsive = [
     `,
     `
         @media (max-width: 360px) {
-            gap: 1.5rem;
+            gap: 1rem;
         }
     `
 ];
