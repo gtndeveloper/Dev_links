@@ -54,7 +54,7 @@ const Responsive = [
                 & header {
                     gap: 0;
 
-                    & > h3 { font-size: 1.7;}
+                    & > h3 { font-size: 1.7rem; }
                     & div h2 { font-size: 2rem; }
                     & div h3 { line-height: 135%; }
                 }
