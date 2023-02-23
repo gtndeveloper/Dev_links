@@ -28,6 +28,7 @@ const Responsive = [
     `,
     `
         @media (max-width: 654px) {
+            max-height: 43rem;
             flex-direction: column;
             
             & > div:not(#content) {
