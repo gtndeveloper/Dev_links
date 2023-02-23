@@ -9,14 +9,10 @@ const Responsive = [
                 & header {
                     width: 100%;
 
-                    & div h3 {
-                        font-size: 1.5rem;
-                    }
+                    & div h3 { font-size: 1.5rem; }
                 }
 
-                & p {
-                    font-size: 1.4rem;
-                }
+                & p { font-size: 1.4rem; }
 
                 & #buttons {
                     width: 100%;
@@ -55,13 +51,12 @@ const Responsive = [
             & > #content {
                 gap: 1rem;
 
-                & header div h3 {
-                    line-height: 135%;
+                & header {
+                    gap: 0;
+                    div h3 { line-height: 135%; }
                 }
 
-                & > p {
-                    font-size: 1.2rem;
-                }
+                & > p { font-size: 1.2rem; }
             }
         }
     `,
@@ -69,9 +64,7 @@ const Responsive = [
         @media (max-width: 342px) {
             gap: 2.5rem;
 
-            & > #content header div h2 {
-                    font-size: 2.2rem;
-            }
+            & > #content header div h2 { font-size: 2.2rem; }
         }
     `
 ];
@@ -106,7 +99,6 @@ export const Container = styled.div`
     & > div:not(#content) {
         height: 100%;
         width: 100%;
-        max-width: 40rem;
         overflow: hidden;
 
         img {
@@ -202,7 +194,7 @@ export const Container = styled.div`
                 align-items: center;
                 gap: .6rem;
 
-                width: 35%;
+                width: 40%;
                 height: 4rem;
 
                 background-color: transparent;
