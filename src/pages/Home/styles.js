@@ -105,7 +105,8 @@ export const Container = styled.div`
 
     & > div:not(#content) {
         height: 100%;
-        width: 40rem;
+        width: 100%;
+        max-width: 40rem;
         overflow: hidden;
 
         img {
