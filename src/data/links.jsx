@@ -5,7 +5,7 @@ export const links = [
     },
     {
         title: "Veja meu Linkedin",
-        href: "https://www.linkedin.com/in/murilo-mendes-4a9525267/",
+        href: "www.linkedin.com/in/murilomendes71",
     },
     {
         title: "Acesse este projeto no github",
