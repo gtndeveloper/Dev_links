@@ -70,7 +70,7 @@ const Responsive = [
 
 export const Main = styled.main`
     position: relative;
-    padding-inline: 5rem;
+    padding-inline: 2rem;
 
     width: 100%;
     height: 100%;
