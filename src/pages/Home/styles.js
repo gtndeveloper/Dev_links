@@ -61,10 +61,10 @@ const Responsive = [
         }
     `,
     `
-        @media (max-width: 342px) {
-            gap: 2.5rem;
+        @media (max-width: 360px) {
+            gap: 2rem;
 
-            & > #content header div h2 { font-size: 2.2rem; }
+            & > #content header div h2 { font-size: 2rem; }
         }
     `
 ];
