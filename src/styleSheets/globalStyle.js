@@ -37,8 +37,9 @@ export const GlobalStyle = createGlobalStyle`
         height: 100vh;
         width: 100vw;
 
-        overflow: hidden;
-        
+        overflow-x: hidden;
+        overflow-y: auto;
+
         background-color: #101010;
     }
 `;
