@@ -46,7 +46,7 @@ const Responsive = [
     `,
     `
         @media (max-width: 398px) {
-            gap: 2.5rem;
+            gap: 1.8rem;
 
             & > #content {
                 gap: 1rem;
@@ -63,7 +63,7 @@ const Responsive = [
     `,
     `
         @media (max-width: 360px) {
-            gap: 2rem;
+            gap: 1.5rem;
         }
     `
 ];
