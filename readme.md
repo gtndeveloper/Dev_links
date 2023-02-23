@@ -9,7 +9,7 @@
 > :mag_right: O Dev Link é uma aplicação básica que permite o usuário armazenar os links pessoais. Além disso, temos a página de 404 ( Not Found ), onde é possível o usuário voltar para a página apenas clicando em um botão.
 > <br>
 
-:paperclip: Link da aplicação: https://Dev-links.vercel.app/
+:paperclip: Link da aplicação: https://projeto-dev-links.vercel.app/
 
 ## :computer: Funcionalidades
 
